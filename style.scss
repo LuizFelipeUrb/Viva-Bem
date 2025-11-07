@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+ header{
+    height: 90vh;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    background: url("./image/bannerHeader.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    .box-header{
+       
+        margin-top: 30px;
+        width:80%;
+        height: 10vh;
+        border-radius:50px;
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+        background: linear-gradient( to right#4247a2 0%, #52b095 100%);
+        nav{
+            width:40%;
+            height:10vh;
+            display:flex;
+            align-items: center;
+            justify-content: space-evenly;
+            a {
+                color: white;
+                font-family: "Roboto", sans-serif;
+            }
+        }
+    }
+ }
+
+ .box-banner {
+    width:80vw;
+    height:80vh;
+    display: flex;
+    align-items: center;
+    .box-titulo {
+        border: solid 2px blue;
+        height: 60vh;
+        h2{
+            font-size: 2.7 rem;
+            background: linear-gradient(to right, #4247a2 0%, #52b095 100%);
+        }
+    }
+}
